@@ -48,20 +48,17 @@ body {
 }
 
 .main-nav {
-    display: flex; /* to put the elements in one line */
-    align-items: center; 
-    justify-content: space-between;
+ display: flex; /* to put the elements in one line */ 
+     align-items: center; 
+justify-content: space-between;
     padding: 20px 0;
     font-size: 13px;
     background: #fff;
 }
-
 .main-nav ul {
     display: flex;
     list-style: none;
 }
-
-
 .main-nav li {
     margin-right: 10px;
 }
@@ -78,5 +75,6 @@ body {
     padding-bottom: 2px;
 }
 .main-nav a:hover {
+    
     border-bottom: 2px solid black;
 }
