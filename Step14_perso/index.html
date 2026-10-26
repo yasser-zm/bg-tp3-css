@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+		<link rel="stylesheet" href="style.css" />
+		<title>Sécurité Web : les en-têtes HTTP</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="main-nav">
+				<img src="../img/Logo.png" alt="Logo Bingo" class="logo">
+				<ul class="main-menu">
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#web">Bases</a></li>
+					<li><a href="#bigData">Avancé</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<ul class="right-menu">
+					<li>
+						<a href="#">
+							 <i class="fas fa-search"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="fas fa-shopping-cart"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<header class="showcase">
+				<h2>Sécurité Web : les en-têtes HTTP</h2>
+				<p>
+					Protégez vos sites contre XSS, clickjacking et interception avec quelques lignes de configuration
+				</p>
+				<a href="#" class="btn">
+					Commencer <i class="fas fa-chevron-right"></i>
+				</a>
+			</header>
+			<main>
+				<section id="web" class="home-cards">
+					<div>
+						<img src="../img/card1_html.png" alt="" />
+						<h3>Chapitre 1: CSP</h3>
+						<p>
+							Découvrez comment Content-Security-Policy limite les sources de scripts et de styles pour bloquer les attaques XSS.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+					<div>
+						<img src="../img/card2_css.png" alt="" />
+						<h3>Chapitre 2: HSTS</h3>
+						<p>
+							Voyez comment Strict-Transport-Security force le navigateur à utiliser HTTPS et empêche les attaques par rétrogradation.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+					<div>
+						<img src="../img/card3_JS.png" alt="" />
+						<h3>Chapitre 3: Clickjacking</h3>
+						<p>
+							Apprenez comment frame-ancestors et X-Frame-Options empêchent d'afficher votre site dans une page piégée.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+					<div>
+						<img src="../img/card4_HTTP.png" alt="" />
+						<h3>Chapitre 4: nosniff</h3>
+						<p>
+							Comprenez comment X-Content-Type-Options empêche le navigateur de deviner le type d'un fichier et d'exécuter du code caché.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+				</section>
+				<section id="bigData-intro">
+					<div class="content">
+						<h2>Sécurité par configuration</h2>
+						<p>
+							Les en-têtes de sécurité HTTP sont une défense gratuite et rapide à mettre en place.
+							Quelques lignes côté serveur réduisent fortement les risques d'attaque sur vos pages web.
+						</p>
+						<a href="#" class="btn">
+							Commencer <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+				</section>
+				<section id="bigData" class="home-cards">
+					<div>
+						<img src="../img/card5_hdfs.png" alt="" />
+						<h3>Referrer-Policy</h3>
+						<p>
+							Découvrez comment Referrer-Policy contrôle les informations d'origine envoyées aux autres sites
+							pour protéger la vie privée des visiteurs.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+					<div>
+						<img src="../img/card6_pipelines.png" alt="" />
+						<h3>Permissions-Policy</h3>
+						<p>
+							Permissions-Policy autorise ou bloque l'accès à la caméra, au micro et à la géolocalisation
+							pour votre page et ses iframes.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+					<div>
+						<img src="../img/card7_spark.png" alt="" />
+						<h3>Cookies sécurisés</h3>
+						<p>
+							Apprenez comment HttpOnly, Secure et SameSite protègent les cookies de session
+							contre le vol et les requêtes forgées (CSRF).
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+					<div>
+						<img src="../img/card8_kafka.png" alt="" />
+						<h3>CORS</h3>
+						<p>
+							Voyez comment CORS décide quels sites peuvent lire vos réponses,
+							et pourquoi une valeur « * » mal placée est dangereuse.
+						</p>
+						<a href="#">Lire plus<i class="fas fa-chevron-right"></i></a>
+					</div>
+				</section>
+				<section id="contact" class="ruban dark">
+					<div class="content">
+						<h2>Testez votre site</h2>
+						<p>Analysez vos en-têtes avec des outils gratuits comme Mozilla Observatory ou
+							securityheaders.com, puis corrigez un en-tête à la fois et mesurez votre progression.</p>
+						<a href="#" class="btn">
+							Commencer <i class="fas fa-chevron-right"></i>
+						</a>
+					</div>
+				</section>
+				<section class="follow">
+					<p>Suivez-nous:</p>
+					<a href="https://www.youtube.com/channel/UCO2rHSchURnEcVSnSd_ucbg">
+						<span class="fab fa-youtube"></span>
+					</a>
+					<a href="https://github.com">
+						<span class="fab fa-github-square"></span>
+					</a>
+					<a href="https://linkedin.com">
+						<span class="fab fa-linkedin"></span>
+					</a>
+				</section>
+			</main>
+		</div>
+		<footer>
+			<section class="links">
+				<div class="links-inner">
+					<ul>
+						<li>
+							<h3>En-têtes</h3>
+						</li>
+						<li><a href="#">Content-Security-Policy</a></li>
+						<li><a href="#">Strict-Transport-Security</a></li>
+						<li><a href="#">X-Frame-Options</a></li>
+						<li><a href="#">X-Content-Type-Options</a></li>
+						<li><a href="#">Referrer-Policy</a></li>
+					</ul>
+					<ul>
+						<li>
+							<h3>Cookies & sessions</h3>
+						</li>
+						<li><a href="#">HttpOnly</a></li>
+						<li><a href="#">Secure</a></li>
+						<li><a href="#">SameSite</a></li>
+						<li><a href="#">Préfixes __Host-</a></li>
+						<li><a href="#">Durée des sessions</a></li>
+					</ul>
+					<ul>
+						<li>
+							<h3>Attaques</h3>
+						</li>
+						<li><a href="#">XSS</a></li>
+						<li><a href="#">Clickjacking</a></li>
+						<li><a href="#">CSRF</a></li>
+						<li><a href="#">Homme du milieu</a></li>
+						<li><a href="#">Détournement de session</a></li>
+					</ul>
+					<ul>
+						<li>
+							<h3>Outils</h3>
+						</li>
+						<li><a href="#">Mozilla Observatory</a></li>
+						<li><a href="#">securityheaders.com</a></li>
+						<li><a href="#">CSP Evaluator</a></li>
+						<li><a href="#">curl -I</a></li>
+						<li><a href="#">Outils du navigateur</a></li>
+					</ul>
+					<ul>
+						<li>
+							<h3>Références</h3>
+						</li>
+						<li><a href="#">MDN Web Docs</a></li>
+						<li><a href="#">OWASP Secure Headers</a></li>
+						<li><a href="#">RFC 6797 (HSTS)</a></li>
+						<li><a href="#">CSP niveau 3 (W3C)</a></li>
+						<li><a href="#">OWASP Top 10</a></li>
+					</ul>
+				</div>
+			</section>
+			<section class="sub-footer">
+				<div class="footer-inner">
+					<div><i class="fas fa-globe fa-2x"></i> Français (France)</div>
+					<ul>
+						<li><a href="#">Sitemap</a></li>
+						<li><a href="#">Privacy & cookies</a></li>
+						<li><a href="#">Terms of use</a></li>
+						<li><a href="#">Trademarks</a></li>
+						<li><a href="#">Safety & eco</a></li>
+						<li><a href="#">About our ads</a></li>
+						<li><a href="#">&copy; Bingo Web Academy 2026</a></li>
+					</ul>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
